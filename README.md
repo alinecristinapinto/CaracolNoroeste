@@ -1,2 +1,2 @@
-# CaracolNoroeste
+# Caracol Noroeste
 TP Matemática Discreta

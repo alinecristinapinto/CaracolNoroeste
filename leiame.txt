@@ -1,0 +1,12 @@
+TP MD - Caracol Noroeste
+Aline Cristina Pinto / matrícula 2020031412 / Turma TW
+
+A solução para o problema do Caracol Noroeste foi desenvolvida na linguagem C, utilizando o compilador GCC (v6.3.0) no sistema operacional Windows 11.
+Sendo assim, para executar o algoritmo [compilar e rodar], rode o comando:
+
+gcc caracolno.c -o CaracolNoroeste
+.\CaracolNoroeste.exe
+
+Sobre o algoritmo:
+O programa espera uma entrada inteira N >= 0 e retornará o par (x, y) de coordenadas desse ponto.
+A descrição da implementação do mesmo encontra-se no arquivo caracolno.pdf.
