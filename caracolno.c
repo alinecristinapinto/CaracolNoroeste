@@ -19,9 +19,10 @@ void main(){
             ponto.x = -(n + 2)/2;
         }
     } else { // N eh impar
-        ponto.y = (n + 1)/2;
-        
-        if((n+1)%4!=0){ // O sucessor de N nao eh multiplo de 4
+        if((n+1)%4==0){ // O sucessor de N eh multiplo de 4
+            ponto.y = -(n + 1)/2;
+        } else { // O sucessor de N nao eh multiplo de 4
+            ponto.y = (n + 1)/2;
             ponto.x = -1;
         }
     }
